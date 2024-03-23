@@ -1,0 +1,6 @@
+pandas
+seaborn
+ollama
+pypdf
+chromadb
+langchain

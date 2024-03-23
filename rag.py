@@ -83,8 +83,10 @@ class Answer:
 if __name__ == '__main__':
     db = DB()
     asistent = Answer()
-    # pdf_path = '/home/ido/data/idc/forest_sensing/papers/nyborg 2022.pdf'
-    # db.add_pdf(pdf_path)
+
+    pdf_path = '/home/ido/data/idc/forest_sensing/papers/nyborg 2022.pdf'
+    db.add_pdf(pdf_path)
+
     question = 'what remote sensing instrument is used and by which writer?'
     results = db.search(query=question,
                     n_results=5)
